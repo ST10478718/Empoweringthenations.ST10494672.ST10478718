@@ -38,14 +38,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Garden Maintence Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."
-/>
+        android:text="Garden Maintence Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."/>
 
-    <Button
-        android:id="@+id/btnBook"
+    <TextView
+        android:id="@+id/txtDisclaimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Course"
-        android:layout_gravity="center"
-        android:layout_margin="40dp"/>
+        android:text="One - no discount
+Two courses - 5% discount
+Three courses - 10% discount
+Four courses - 15% discount" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewCourses"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="20dp"
+        android:text="Book Course"/>
+
 </LinearLayout>

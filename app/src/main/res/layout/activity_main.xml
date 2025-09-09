@@ -6,13 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background=""
     tools:context=".MainActivity">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="ChatGPT Image Aug 28, 2025, 02_19_27 PM.png"
-        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="175dp"
@@ -20,7 +15,14 @@
         android:layout_gravity="center"
         android:layout_margin="100dp"
         android:text="Empowering The Nations"
-        android:textSize="20dp" />
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="ChatGPT Image Aug 28, 2025, 02_19_27 PM.jpg"/>
+
 
     <TextView
         android:id="@+id/textView"
@@ -35,7 +37,7 @@
         android:id="@+id/btnViewCourses"
         android:layout_width="144dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center"
         android:layout_marginHorizontal="100dp"
         android:layout_marginVertical="20dp"
         android:text="View courses" />

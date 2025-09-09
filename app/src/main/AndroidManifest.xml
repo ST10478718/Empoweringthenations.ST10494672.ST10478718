@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EmpoweringthenationsST10494672ST10478718"
         tools:targetApi="31">
         <activity
+            android:name=".ThankyouScreen"
+            android:exported="false" />
+        <activity
             android:name=".BookingScreen"
             android:exported="false" />
         <activity
