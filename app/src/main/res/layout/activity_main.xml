@@ -9,8 +9,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="ChatGPT Image Aug 28, 2025, 02_19_27 PM.png"
+        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="175dp"
