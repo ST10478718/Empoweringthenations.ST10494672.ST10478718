@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShortCourses">
+
+    <TextView
+        android:id="@+id/textPageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Short Courses"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/txtCourse5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Child Minding Purpose:To provide basic child and baby care."
+         />
+
+    <TextView
+        android:id="@+id/Course6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Cooking Purpose:To prepare and cook nutritious family meals."
+        />
+
+    <TextView
+        android:id="@+id/Course7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Garden Maintence Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."
+/>
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Course" />
+</LinearLayout>
