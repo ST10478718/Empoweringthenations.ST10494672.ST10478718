@@ -2,6 +2,15 @@
 # AJ Dynamics 
 # ST10478718, # ST10494672
 
+# Installation instructions:
+
+Disclaimer - the app is a android and ios supported operating system and will need an estimate storage of 190MB
+
+1. Download the app by searching the app on google play stores or apple store and clicking install. 
+2. The app will then install directly to your device. 
+3. Find the app on your device and open it by tapping on the apps icon. This will then lanuch the app onto your device.
+4.Creating an account wiil not be nesscarry as any communication after booking the course will be sent via email and sms.
+
 # Mobile App
 The homepage will have the logo to attract the attention of the users. The homepage will have the purpose of the training school.  
 
@@ -25,7 +34,6 @@ Shorter courses screen:
 
 A book course button is added to allow users to go ahead an book a course they want to take to improve their skill set.
 
-
 Booking screen:
 
 Before ticking the courses/course wants to take they have to enter their details so that they can be spplied with more details after book their courses.
@@ -34,6 +42,10 @@ Check boxes allows users to choose that or those courses they want to take.
 
 A book button is added this button in the backend calculates the total amount the user will have to pay which it then displays it in the thank you screen.
 
-Thank you page: 
+Contact Screen: 
+
+After booking a course the user is taken to the contact page where they get details on how to contact and where they can find the training program. 
+
+# Documentation 
 
 
