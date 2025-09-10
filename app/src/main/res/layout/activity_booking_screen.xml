@@ -104,7 +104,7 @@
         android:layout_gravity="bottom"
         android:layout_marginHorizontal="100dp"
         android:layout_marginVertical="20dp"
-        android:text="Book" />
+        android:text="Book"/>
 
 
 

@@ -1,6 +1,7 @@
 package za.co.varsitycollege.st10478718.empoweringthenationsst10494672st10478718
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +17,11 @@ class ThankyouScreen : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val btnExit = findViewById<Button>(R.id.btnExit)
+
+        btnExit.setOnClickListener{
+            finishAffinity() // this button will allow the user to exit the app
+        }
+
     }
 }

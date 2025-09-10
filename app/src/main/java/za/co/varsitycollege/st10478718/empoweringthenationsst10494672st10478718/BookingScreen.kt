@@ -28,7 +28,7 @@ class BookingScreen : AppCompatActivity() {
 
         btnBook.setOnClickListener{
             val intent= Intent( this,ThankyouScreen::class.java)
-            startActivity(intent)
+            startActivity(intent) // this button will take the user to the next page
         }
 
 

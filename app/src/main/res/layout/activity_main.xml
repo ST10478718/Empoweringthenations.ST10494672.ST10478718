@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background=""
     tools:context=".MainActivity">
 
     <TextView
@@ -17,20 +16,13 @@
         android:text="Empowering The Nations"
         android:textSize="25dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:srcCompat="ChatGPT Image Aug 28, 2025, 02_19_27 PM.jpg"/>
-
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Empowering the Nation offers skills training for domestic workers and gardeners in Johannesburg."
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
 
 
     <androidx.appcompat.widget.AppCompatButton

@@ -22,7 +22,7 @@ class CoursesScreen : AppCompatActivity() {
 
         btnViewCourses.setOnClickListener{
             val intent = Intent( this,ShortCourses::class.java)
-            startActivity(intent)
+            startActivity(intent) // this button will allow the user to view more of the courses
         }
     }
 }

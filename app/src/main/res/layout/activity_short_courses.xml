@@ -18,6 +18,13 @@
          />
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Each course runs over 6 weeks and cost R750."
+        android:layout_margin="20dp"/>
+
+    <TextView
         android:id="@+id/txtCourse5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,10 +51,29 @@
         android:id="@+id/txtDisclaimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="One - no discount
-Two courses - 5% discount
-Three courses - 10% discount
-Four courses - 15% discount" />
+        android:text="One - no discount"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two courses - 5% discount"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three courses - 10% discount"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Four courses - 15% discount"
+        android:textStyle="bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnViewCourses"
@@ -57,5 +83,8 @@ Four courses - 15% discount" />
         android:layout_marginHorizontal="100dp"
         android:layout_marginVertical="20dp"
         android:text="Book Course"/>
+
+
+
 
 </LinearLayout>

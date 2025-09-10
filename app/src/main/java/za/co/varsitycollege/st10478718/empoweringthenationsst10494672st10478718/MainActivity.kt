@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
          btnViewCourses.setOnClickListener{
           val intent= Intent( this,CoursesScreen::class.java)
-             startActivity(intent)
+             startActivity(intent) // this button will allow the user to view the courses the program offers
          }
 
     }

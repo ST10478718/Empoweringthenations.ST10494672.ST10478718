@@ -22,7 +22,7 @@ class ShortCourses : AppCompatActivity() {
 
         btnBook.setOnClickListener{
             val intent= Intent(this,BookingScreen::class.java)
-            startActivity(intent)
+            startActivity(intent) // the book button will allow the user do book their courses choices on the next page
         }
     }
 }
