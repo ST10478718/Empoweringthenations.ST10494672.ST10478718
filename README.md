@@ -48,4 +48,18 @@ After booking a course the user is taken to the contact page where they get deta
 
 # Documentation 
 
+<img width="1098" height="720" alt="image" src="https://github.com/user-attachments/assets/b16bd3bb-1419-461d-832e-c7e0709d0179" />
+
+<img width="744" height="720" alt="image" src="https://github.com/user-attachments/assets/a64f63fc-9325-4a92-ba98-b91409ff3673" />
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/4a998220-8267-41ca-8fb5-2f44ed3b4a50" />
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/c0a7e2f1-90fe-4336-89d0-d961123866fc" />
+
+![Aug 28, 2025, 02_19_27 PM 1](https://github.com/user-attachments/assets/7b0dd77d-dedd-4ed2-8c76-ab8aa10a61c9)
+
+
+
+
+
 
