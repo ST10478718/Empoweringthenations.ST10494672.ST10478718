@@ -18,9 +18,9 @@ class CoursesScreen : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val btnViewCourses = findViewById<Button>(R.id.btnViewCourses)
+        val btnViewShortCourses = findViewById<Button>(R.id.btnViewShortCourses)
 
-        btnViewCourses.setOnClickListener{
+        btnViewShortCourses.setOnClickListener{
             val intent = Intent( this,ShortCourses::class.java)
             startActivity(intent) // this button will allow the user to view more of the courses
         }
