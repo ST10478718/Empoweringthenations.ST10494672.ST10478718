@@ -9,6 +9,7 @@ Disclaimer - the app is a android and ios supported operating system and will ne
 1. Download the app by searching the app on google play stores or apple store and clicking install. 
 2. The app will then install directly to your device. 
 3. Find the app on your device and open it by tapping on the apps icon. This will then lanuch the app onto your device.
+
 4.Creating an account wiil not be nesscarry as any communication after booking the course will be sent via email and sms.
 
 # Mobile App
