@@ -56,7 +56,32 @@ After booking a course the user is taken to the contact page where they get deta
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/c0a7e2f1-90fe-4336-89d0-d961123866fc" />
 
-![Aug 28, 2025, 02_19_27 PM 1](https://github.com/user-attachments/assets/7b0dd77d-dedd-4ed2-8c76-ab8aa10a61c9)
+<img width="278" height="491" alt="image" src="https://github.com/user-attachments/assets/97f6dcfa-9ae8-4940-9ae2-36465aedc062" />
+
+<img width="274" height="490" alt="image" src="https://github.com/user-attachments/assets/b079a345-c1e4-474a-a670-618cbce8d393" />
+
+<img width="276" height="494" alt="image" src="https://github.com/user-attachments/assets/35cc7da6-6c5e-4e2e-bdd6-dd024dfb66f4" />
+
+<img width="278" height="495" alt="image" src="https://github.com/user-attachments/assets/bc59db69-3e32-4ebe-8623-3793cd49d8d4" />
+
+<img width="283" height="497" alt="image" src="https://github.com/user-attachments/assets/9d3ce60f-bc1f-46cd-93c2-766b3f6cbd01" />
+
+<img width="753" height="720" alt="image" src="https://github.com/user-attachments/assets/4a977ef1-ac4f-4bbd-bb6d-caef3d9e042e" />
+
+<img width="754" height="720" alt="image" src="https://github.com/user-attachments/assets/5da9bf6b-3372-46fd-8fc7-be968a899f2f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
