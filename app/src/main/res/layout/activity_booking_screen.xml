@@ -16,7 +16,8 @@
         android:text="Book your course"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/txtName"
@@ -24,7 +25,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/txtPhone"
@@ -33,7 +35,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Number"
-       />
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/txtEmail"
@@ -42,7 +44,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Email"
-      />
+        android:textColor="@color/black"/>
 
 
     <CheckBox
@@ -50,49 +52,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="First-Aid"
-        />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sewing"
-        />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Landscaping"
-        />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Life Skills"
-       />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Child Minding"
-        />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cooking"
-        />
+        android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Garden Maintence"
-       />
+        android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBook"

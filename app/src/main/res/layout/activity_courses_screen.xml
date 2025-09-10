@@ -16,7 +16,8 @@
         android:layout_gravity="center"
         android:text="Courses"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtPrograms"
@@ -24,13 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Our Training Programs"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtFees"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Each course runs over 12 weeks and costs R1500." />
+        android:text="Each course runs over 12 weeks and costs R1500."
+        android:textColor="@color/black"/>
 
 
     <TextView
@@ -39,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="First-Aid
-Purpose:To provide aid awareness and basic life support." />
+Purpose:To provide aid awareness and basic life support."
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtCourse2"
@@ -47,7 +51,8 @@ Purpose:To provide aid awareness and basic life support." />
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Sewing
-Purpose:To provide alternations and new garment tailoring services." />
+Purpose:To provide alternations and new garment tailoring services."
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtCourse3"
@@ -55,7 +60,8 @@ Purpose:To provide alternations and new garment tailoring services." />
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Landscaping
-Purpose:To provide landscaping services for new and established gardens." />
+Purpose:To provide landscaping services for new and established gardens."
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtCourse4"
@@ -63,7 +69,8 @@ Purpose:To provide landscaping services for new and established gardens." />
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Life Skills
-Purpose:To provide skills to navigate basic life necessities." />
+Purpose:To provide skills to navigate basic life necessities."
+        android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnViewShortCourses"

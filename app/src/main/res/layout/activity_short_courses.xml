@@ -16,14 +16,15 @@
         android:text="Short Courses"
         android:layout_gravity="center"
         android:textStyle="bold"
-         />
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Each course runs over 6 weeks and cost R750."
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtCourse5"
@@ -31,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Child Minding Purpose:To provide basic child and baby care."
-         />
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/Course6"
@@ -39,42 +40,47 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Cooking Purpose:To prepare and cook nutritious family meals."
-        />
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/Course7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Garden Maintence Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."/>
+        android:text="Garden Maintence Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtDisclaimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="One - no discount"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Two courses - 5% discount"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Three courses - 10% discount"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Four courses - 15% discount"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnViewCourses"

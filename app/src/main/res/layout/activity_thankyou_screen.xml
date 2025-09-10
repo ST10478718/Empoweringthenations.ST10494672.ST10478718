@@ -14,34 +14,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Thank you for considering our courses."
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="You can contact and find us here : "
-         android:layout_margin="20dp" />
+         android:layout_margin="20dp"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email:Empowering@gmaail.co.za"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tel:027895788"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="47dp"
-        android:text="Our training programs can be found in Johnnesburg's 3 neighborhoods, Newton,Braamfontein and Randburg." />
+        android:text="Our training programs can be found in Johnnesburg's 3 neighborhoods, Newton,Braamfontein and Randburg."
+        android:textColor="@color/black"/>
 
     <ImageView
         android:id="@+id/imageView2"
