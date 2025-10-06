@@ -24,15 +24,32 @@ class BookingScreen : AppCompatActivity() {
         val txtName = findViewById<EditText>(R.id.txtName)
         val txtPhone = findViewById<EditText>(R.id.txtPhone)
         val txtEmail = findViewById<EditText>(R.id.txtEmail)
+        val btnBack= findViewById<Button>(R.id.btnBack)
 
 
         btnBook.setOnClickListener{
+
             val intent= Intent( this,ThankyouScreen::class.java)
-            startActivity(intent) // this button will take the user to the next page
+            startActivity(intent) // this button will take the user to the next page, // this button will also pass on the entered information
+        }
+        if(txtName.text.toString().trim().isEmpty()){
+            txtName.error = "This field cannot be empty"
+            return
+        }
+        if(txtPhone.text.toString().trim().isEmpty()){
+            txtPhone.error = "This field cannot be empty"
+            return
+        }
+        if(txtEmail.text.toString().trim().isEmpty()){
+            txtEmail.error = "This field cannot be empty"
+            return
         }
 
-
-
+        btnBack.setOnClickListener {
+            finish()// this button will allow the user to go back to the previous page.
+        }
 
     }
 }
+
+

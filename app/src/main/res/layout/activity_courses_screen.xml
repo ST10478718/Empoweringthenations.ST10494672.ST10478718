@@ -81,5 +81,12 @@ Purpose:To provide skills to navigate basic life necessities."
         android:layout_marginVertical="20dp"
         android:text="View short courses" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:text="Back"
+        />
 
 </LinearLayout>

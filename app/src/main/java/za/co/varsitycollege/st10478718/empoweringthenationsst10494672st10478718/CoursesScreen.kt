@@ -19,10 +19,15 @@ class CoursesScreen : AppCompatActivity() {
             insets
         }
         val btnViewShortCourses = findViewById<Button>(R.id.btnViewShortCourses)
+        val btnBack = findViewById<Button>(R.id.btnBack)
 
         btnViewShortCourses.setOnClickListener{
             val intent = Intent( this,ShortCourses::class.java)
             startActivity(intent) // this button will allow the user to view more of the courses
+        }
+
+        btnBack.setOnClickListener {
+            finish()// this button will allow the user to go back to the previous page.
         }
     }
 }

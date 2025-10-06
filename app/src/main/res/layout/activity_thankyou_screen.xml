@@ -55,12 +55,18 @@
         app:srcCompat="@drawable/img_1" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="20dp"
+        android:text="Back"/>
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnExit"
         android:layout_width="144dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginHorizontal="100dp"
-        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="120dp"
         android:text="Exit App"
         />
 

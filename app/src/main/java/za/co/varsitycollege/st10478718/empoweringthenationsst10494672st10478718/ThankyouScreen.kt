@@ -18,6 +18,12 @@ class ThankyouScreen : AppCompatActivity() {
             insets
         }
         val btnExit = findViewById<Button>(R.id.btnExit)
+        val btnBack = findViewById<Button>(R.id.btnBack)
+
+
+        btnBack.setOnClickListener {
+            finish()// this button will allow the user to go back to the previous page.
+        }
 
         btnExit.setOnClickListener{
             finishAffinity() // this button will allow the user to exit the app
