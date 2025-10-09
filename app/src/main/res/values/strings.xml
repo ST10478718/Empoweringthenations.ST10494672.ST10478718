@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Empoweringthenations,ST10494672,ST10478718</string>
+    <string-array name="dropdown_items">
+        <item>Home Screen</item>
+        <item>Courses Screen</item>
+        <item> Short Courses Screen</item>
+        <item> Booking Screen </item>
+        <item> Thank you Screen</item>
+    </string-array>
+
 </resources>
