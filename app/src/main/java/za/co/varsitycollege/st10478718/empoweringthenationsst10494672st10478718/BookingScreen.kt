@@ -32,6 +32,9 @@ class BookingScreen : AppCompatActivity() {
             val intent= Intent( this,ThankyouScreen::class.java)
             startActivity(intent) // this button will take the user to the next page, // this button will also pass on the entered information
         }
+        btnBack.setOnClickListener {
+            finish()// this button will allow the user to go back to the previous page.
+        }
         if(txtName.text.toString().trim().isEmpty()){
             txtName.error = "This field cannot be empty"
             return
@@ -45,9 +48,7 @@ class BookingScreen : AppCompatActivity() {
             return
         }
 
-        btnBack.setOnClickListener {
-            finish()// this button will allow the user to go back to the previous page.
-        }
+
 
     }
 }

@@ -6,6 +6,13 @@
         <item> Short Courses Screen</item>
         <item> Booking Screen </item>
         <item> Thank you Screen</item>
-    </string-array>
+        <item> First-Aid</item>
+        <item> Sewing </item>
+        <item> Landscaping</item>
+        <item> Life Skills </item>
+        <item> Child Mining</item>
+        <item> Cooking </item>
+        <item> Garden Maintence </item>
+          </string-array>
 
 </resources>
