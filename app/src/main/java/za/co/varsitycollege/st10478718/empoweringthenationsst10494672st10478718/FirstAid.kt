@@ -1,6 +1,8 @@
 package za.co.varsitycollege.st10478718.empoweringthenationsst10494672st10478718
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,5 +21,15 @@ class FirstAid : AppCompatActivity() {
         }
         val txtdescription = findViewById<TextView>(R.id.txtDescription)
         val txtPrice = findViewById<TextView>(R.id.txtPrice)
+        val btnBack = findViewById<Button>(R.id.btnBack)
+        val btnNext = findViewById<Button>(R.id.btnNext)
+
+        btnNext.setOnClickListener {
+            val Intent = Intent(this, Sewing::class.java)
+            startActivity(Intent)
+        }// This will allow the user to go to the next course
+        btnBack.setOnClickListener {
+            finish()// this button will take you back to the homepage and take you back to the previous page
+        }
     }
 }

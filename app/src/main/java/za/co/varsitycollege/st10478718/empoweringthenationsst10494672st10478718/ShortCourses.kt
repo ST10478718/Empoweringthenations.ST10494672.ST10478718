@@ -22,7 +22,7 @@ class ShortCourses : AppCompatActivity() {
         val btnBack = findViewById<Button>(R.id.btnBack)
 
         btnBookCourse.setOnClickListener{
-            val intent= Intent(this,BookingScreen::class.java)
+            val intent= Intent(this, BookingScreen::class.java)
             startActivity(intent) // the book button will allow the user do book their courses choices on the next page
         }
 

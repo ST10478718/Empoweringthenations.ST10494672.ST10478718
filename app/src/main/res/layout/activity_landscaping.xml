@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    android:orientation="vertical"
     tools:context=".Landscaping">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtPageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landscaping"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees: R1500"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose:To provide landscaping services for new and established gardens."/>
+
+    <TextView
+        android:id="@+id/txtContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Indigenous and exotic plants and trees"/>
+    <TextView
+        android:id="@+id/txtContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Fixed structures(Fountains, stautes, benches, tables, built-in braai"/>
+    <TextView
+        android:id="@+id/txtContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Balancing of plants and tress in a garden "/>
+    <TextView
+        android:id="@+id/txtContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Aesthetics of plant shapes and colours"/>
+    <TextView
+        android:id="@+id/txtContent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Garden layout"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"/>
+</LinearLayout>

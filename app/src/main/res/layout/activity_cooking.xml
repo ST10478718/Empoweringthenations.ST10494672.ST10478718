@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_3"
     tools:context=".Cooking">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtPageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cooking"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees: R750"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose:To prepare and cook nutritious family meals."/>
+
+    <TextView
+        android:id="@+id/txtContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Nutritional requirements for a healthy body"/>
+    <TextView
+        android:id="@+id/txtContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Types of protein, carbohydrates and vegetables"/>
+    <TextView
+        android:id="@+id/txtContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Planning meals"/>
+    <TextView
+        android:id="@+id/txtContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Tasty and nutritious recipes"/>
+    <TextView
+        android:id="@+id/txtContent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Preparation and cooking of meals"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"/>
+</LinearLayout>

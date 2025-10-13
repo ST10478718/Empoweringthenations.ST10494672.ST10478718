@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="First-Aid
-Purpose:To provide aid awareness and basic life support."
-        android:textColor="@color/black"/>
+Purpose: To provide aid awareness and basic life support"/>
+
 
     <TextView
         android:id="@+id/txtCourse2"

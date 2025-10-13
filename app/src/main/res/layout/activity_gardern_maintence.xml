@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_3"
     tools:context=".GardernMaintence">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtPageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gardern Maintence"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees: R750"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."/>
+
+    <TextView
+        android:id="@+id/txtContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Water restrictions and the watering requirements of indigenous and exotic plants"/>
+
+    <TextView
+        android:id="@+id/txtContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Pruning and propagation of plants"/>
+    <TextView
+        android:id="@+id/txtContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Planting techniques for different plant types"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"/>
+</LinearLayout>

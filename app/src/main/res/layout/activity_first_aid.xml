@@ -6,9 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/img_3"
     tools:context=".FirstAid">
 
     <TextView
+        android:id="@+id/txtPageName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="First Aid"
@@ -16,15 +18,55 @@
         android:textSize="20dp"/>
 
     <TextView
-        android:id="@+id/txtDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
         android:id="@+id/txtPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""/>
+        android:text="Fees: R1500"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: To provide aid awareness and basic life support"/>
+
+    <TextView
+        android:id="@+id/txtContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Wounds and bleeding"/>
+    <TextView
+        android:id="@+id/txtContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Burns and fractures"/>
+    <TextView
+        android:id="@+id/txtContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Emergency scene managment"/>
+    <TextView
+        android:id="@+id/txtContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Cardio-Pulmononary Resuscitation (CPR)"/>
+    <TextView
+        android:id="@+id/txtContent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Respiratory distress e.g., Choking, blocked airway"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"/>
 
 
 </LinearLayout>
