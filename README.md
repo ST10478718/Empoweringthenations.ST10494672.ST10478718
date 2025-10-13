@@ -70,6 +70,18 @@ After booking a course the user is taken to the contact page where they get deta
 
 <img width="754" height="720" alt="image" src="https://github.com/user-attachments/assets/5da9bf6b-3372-46fd-8fc7-be968a899f2f" />
 
+# Updated Documentation 
+
+<img width="835" height="398" alt="image" src="https://github.com/user-attachments/assets/4cf76759-4ea9-45a0-b0aa-d032aa95dd4e" />
+
+Code for the dropdown menu
+
+<img width="981" height="807" alt="image" src="https://github.com/user-attachments/assets/73c09db2-3d89-4e03-b80a-aab27f331ec0" />
+
+Code to allow the dropdown menu to work 
+
+
+
 
 
 
