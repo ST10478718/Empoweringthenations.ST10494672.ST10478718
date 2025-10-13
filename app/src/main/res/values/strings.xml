@@ -4,15 +4,15 @@
         <item>Home Screen</item>
         <item>Courses Screen</item>
         <item> Short Courses Screen</item>
-        <item> Booking Screen </item>
-        <item> Thank you Screen</item>
         <item> First-Aid</item>
         <item> Sewing </item>
         <item> Landscaping</item>
         <item> Life Skills </item>
-        <item> Child Mining</item>
+        <item> Child Minding</item>
         <item> Cooking </item>
         <item> Garden Maintence </item>
-          </string-array>
+        <item> Booking Screen </item>
+        <item> Thank you Screen</item>
+    </string-array>
 
 </resources>

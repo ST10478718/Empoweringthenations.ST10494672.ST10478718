@@ -53,8 +53,15 @@ class MainActivity : AppCompatActivity() {
                     0 -> startActivity(Intent(this@MainActivity, MainActivity:: class.java))
                     1 -> startActivity(Intent(this@MainActivity, CoursesScreen ::class.java))
                     2 -> startActivity(Intent(this@MainActivity, ShortCourses ::class.java))
-                    3 -> startActivity(Intent(this@MainActivity, BookingScreen ::class.java))
-                    4 -> startActivity(Intent(this@MainActivity, ThankyouScreen::class.java))
+                    3->  startActivity(Intent(this@MainActivity, FirstAid::class.java))
+                    4->  startActivity(Intent(this@MainActivity, Sewing::class.java))
+                    5->  startActivity(Intent(this@MainActivity, Landscaping::class.java))
+                    6->  startActivity(Intent(this@MainActivity, LifeSkills::class.java))
+                    7->  startActivity(Intent(this@MainActivity, ChildMinding::class.java))
+                    8->  startActivity(Intent(this@MainActivity, Cooking::class.java))
+                    9->  startActivity(Intent(this@MainActivity, GardernMaintence::class.java))
+                    10-> startActivity(Intent(this@MainActivity, BookingScreen ::class.java))
+                    11 -> startActivity(Intent(this@MainActivity, ThankyouScreen::class.java))
                 }
             }
             override fun onNothingSelected(parent: AdapterView<*>){
