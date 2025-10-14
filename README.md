@@ -32,7 +32,9 @@ A view shorter courses button is added so that the user has the ability to view 
 
 Shorter courses screen: 
 
-A book course button is added to allow users to go ahead an book a course they want to take to improve their skill set.
+A book course button is added to allow users to go ahead an book a course they want to take to improve their skill set. 
+
+Each course has been listed in it's own screen displaying it's own fees, purpose and content. 
 
 Booking screen:
 
@@ -40,11 +42,16 @@ Before ticking the courses/course wants to take they have to enter their details
 
 Check boxes allows users to choose that or those courses they want to take.
 
-A book button is added this button in the backend calculates the total amount the user will have to pay which it then displays it in the thank you screen.
+A book button is added this button in the backend calculates the total amount the user will have to pay. 
+Calculation Screen: 
 
-Contact Screen: 
+After the user has selected the courses that they want they will proceed by clicking the book button which will allow the app to claclute the total cost the user will have to pay. 
+
+Contact Screen/ Thank you Screen : 
 
 After booking a course the user is taken to the contact page where they get details on how to contact and where they can find the training program. 
+
+
 
 # Documentation 
 
