@@ -3,6 +3,7 @@ package za.co.varsitycollege.st10478718.empoweringthenationsst10494672st10478718
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -25,11 +26,26 @@ class BookingScreen : AppCompatActivity() {
         val txtPhone = findViewById<EditText>(R.id.txtPhone)
         val txtEmail = findViewById<EditText>(R.id.txtEmail)
         val btnBack= findViewById<Button>(R.id.btnBack)
+        val checkbox1 = findViewById<CheckBox>(R.id.checkBox1)
+        val checkbox2 = findViewById<CheckBox>(R.id.checkBox2)
+        val checkbox3 = findViewById<CheckBox>(R.id.checkBox3)
+        val checkbox4 = findViewById<CheckBox>(R.id.checkBox4)
+        val checkbox5 = findViewById<CheckBox>(R.id.checkBox5)
+        val checkbox6 = findViewById<CheckBox>(R.id.checkBox6)
+        val checkbox7 = findViewById<CheckBox>(R.id.checkBox7)
 
 
         btnBook.setOnClickListener{
 
-            val intent= Intent( this,ThankyouScreen::class.java)
+          val longTermBoxes = listOf(checkbox1,checkbox2, checkbox3, checkbox4)
+            val shortTermBoxes = listOf(checkbox5, checkbox6, checkbox7)
+
+            val longTermCount = longTermBoxes.count{it.isChecked}
+            val shortTermCount = shortTermBoxes.count{it.isChecked}
+
+            val intent= Intent( this, CalculateFees::class.java)
+            intent.putExtra("longTermCount", longTermCount);
+            intent.putExtra("shortTermCount", shortTermCount);
             startActivity(intent) // this button will take the user to the next page, // this button will also pass on the entered information
         }
         btnBack.setOnClickListener {

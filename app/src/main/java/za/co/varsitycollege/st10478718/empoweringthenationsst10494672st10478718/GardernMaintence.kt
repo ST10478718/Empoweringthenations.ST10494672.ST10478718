@@ -26,6 +26,7 @@ class GardernMaintence : AppCompatActivity() {
         }// this button will take you back to the homepage and take you back to the previous page
         btnNext.setOnClickListener {
             val Intent = Intent(this, BookingScreen::class.java)
+            startActivity(Intent)
         }// this button will take the user to next page
     }
 }

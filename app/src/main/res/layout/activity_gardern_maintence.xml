@@ -15,36 +15,47 @@
         android:layout_height="wrap_content"
         android:text="Gardern Maintence"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/txtPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
         android:text="Fees: R750"/>
     <TextView
         android:id="@+id/txtDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text=" Purpose:To provide basic knowledge of watering,pruning and planting in a domestic garden."/>
 
     <TextView
         android:id="@+id/txtContent1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="1.Water restrictions and the watering requirements of indigenous and exotic plants"/>
 
     <TextView
         android:id="@+id/txtContent2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="2.Pruning and propagation of plants"/>
+
     <TextView
         android:id="@+id/txtContent3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="3.Planting techniques for different plant types"/>
-
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -52,6 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
         android:text="Next"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -59,5 +72,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:text="Back"/>
 </LinearLayout>

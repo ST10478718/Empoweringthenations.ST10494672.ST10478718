@@ -61,10 +61,12 @@ class MainActivity : AppCompatActivity() {
                     8->  startActivity(Intent(this@MainActivity, Cooking::class.java))
                     9->  startActivity(Intent(this@MainActivity, GardernMaintence::class.java))
                     10-> startActivity(Intent(this@MainActivity, BookingScreen ::class.java))
-                    11 -> startActivity(Intent(this@MainActivity, ThankyouScreen::class.java))
+                    11-> startActivity(Intent(this@MainActivity, CalculateFees::class.java))
+                    12 -> startActivity(Intent(this@MainActivity, ThankyouScreen::class.java))
                 }
-            }
+            } // this will only work when a certain screen is selected by the user
             override fun onNothingSelected(parent: AdapterView<*>){
+                // this will handle when no item is not selected
             }
         }
     }

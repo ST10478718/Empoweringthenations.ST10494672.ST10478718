@@ -15,38 +15,54 @@
         android:layout_height="wrap_content"
         android:text="Child Minding"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/txtPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
         android:text="Fees: R750"/>
     <TextView
         android:id="@+id/txtDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="Purpose:To provide basic child and baby care."/>
 
     <TextView
         android:id="@+id/txtContent1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="1.birth to six-month old baby needs "/>
+
     <TextView
         android:id="@+id/txtContent2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="2.seven-month to one year old needs "/>
+
     <TextView
         android:id="@+id/txtContent3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="3.Toddler needs"/>
+
     <TextView
         android:id="@+id/txtContent4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
         android:text="4.Educational toys"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -54,6 +70,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
         android:text="Next"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -61,5 +79,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:text="Back"/>
 </LinearLayout>
