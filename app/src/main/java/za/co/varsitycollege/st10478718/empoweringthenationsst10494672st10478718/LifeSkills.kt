@@ -3,6 +3,7 @@ package za.co.varsitycollege.st10478718.empoweringthenationsst10494672st10478718
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,6 +19,8 @@ class LifeSkills : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val txtdescription = findViewById<TextView>(R.id.txtDescription)
+        val txtPrice = findViewById<TextView>(R.id.txtPrice)
         val btnNext = findViewById<Button>(R.id.btnNext)
         val btnBack = findViewById<Button>(R.id.btnBack)
 

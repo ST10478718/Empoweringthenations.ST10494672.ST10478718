@@ -51,15 +51,16 @@ class BookingScreen : AppCompatActivity() {
         btnBack.setOnClickListener {
             finish()// this button will allow the user to go back to the previous page.
         }
-        if(txtName.text.toString().trim().isEmpty()){
+        if(txtName.text.toString().trim().lowercase().isEmpty()){
             txtName.error = "This field cannot be empty"
             return
         }
+       // this will alert the user that it is need for them to fill that space
         if(txtPhone.text.toString().trim().isEmpty()){
             txtPhone.error = "This field cannot be empty"
             return
         }
-        if(txtEmail.text.toString().trim().isEmpty()){
+        if(txtEmail.text.toString().trim().lowercase().isEmpty()){
             txtEmail.error = "This field cannot be empty"
             return
         }

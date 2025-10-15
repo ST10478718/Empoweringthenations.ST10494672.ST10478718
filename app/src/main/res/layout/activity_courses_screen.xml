@@ -26,7 +26,7 @@
         android:layout_margin="20dp"
         android:text="Our Training Programs"
         android:textStyle="bold"
-        android:textColor="@color/black"/>
+       android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtFees"
@@ -42,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="First-Aid
-Purpose: To provide aid awareness and basic life support"/>
+Purpose: To provide aid awareness and basic life support"
+        android:textColor="@color/black"/>
 
 
     <TextView

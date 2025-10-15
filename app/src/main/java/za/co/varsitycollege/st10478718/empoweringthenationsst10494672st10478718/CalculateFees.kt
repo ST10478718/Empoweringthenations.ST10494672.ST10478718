@@ -38,18 +38,22 @@ class CalculateFees : AppCompatActivity() {
 
         val longTermCost = 1500
         val shortTermCost = 750
+        // declaring the constant numeric value for the long courses and the short courses.
 
         val totalCourses = longTermCount + shortTermCount
         val subtotal = (longTermCount * longTermCost) + (shortTermCount * shortTermCost)
+        // equation to calculate the total number of courses and the subtotal the user
+        // will pay before getting a discount depending on the courses selected.
 
                 val discount = when (totalCourses){
                     2 -> 0.05
                     3 -> 0.10
                     4 -> 0.15
                     else -> 0.0
-                }
+                } // the intializing when the discount should included in the calculation.
         val discountAmount = subtotal * discount
         val finalAmount = subtotal - discountAmount
+        // equation for how much the user will pay including the discount
 
         val summaryText = """
         Long-term courses selected: $longTermCount
@@ -60,5 +64,5 @@ class CalculateFees : AppCompatActivity() {
                 Final Amount:R$finalAmount
                 """.trimIndent()
         textViewSummary.text=summaryText
-    }
+    } // this is how the summary text will be display to the user
 }
