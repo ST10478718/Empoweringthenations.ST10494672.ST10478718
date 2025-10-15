@@ -97,6 +97,8 @@ Code to allow the dropdown menu to work
 <img width="394" height="687" alt="image" src="https://github.com/user-attachments/assets/1d63f193-90c7-4bfb-a0be-a54266777f7a" />
 <img width="394" height="687" alt="image" src="https://github.com/user-attachments/assets/6ae370c7-b189-4b2f-8873-997eee01be60" />
 <img width="399" height="682" alt="image" src="https://github.com/user-attachments/assets/f6e8109f-fd8a-417c-8b0c-0c04dcc6487b" />
+<img width="389" height="688" alt="image" src="https://github.com/user-attachments/assets/50ed7223-a5c5-492b-b252-126bf02ac005" />
+
 
 Courses pages 
 
