@@ -32,7 +32,9 @@ A view shorter courses button is added so that the user has the ability to view 
 
 Shorter courses screen: 
 
-A book course button is added to allow users to go ahead an book a course they want to take to improve their skill set.
+A book course button is added to allow users to go ahead an book a course they want to take to improve their skill set. 
+
+Each course has been listed in it's own screen displaying it's own fees, purpose and content. 
 
 Booking screen:
 
@@ -40,11 +42,16 @@ Before ticking the courses/course wants to take they have to enter their details
 
 Check boxes allows users to choose that or those courses they want to take.
 
-A book button is added this button in the backend calculates the total amount the user will have to pay which it then displays it in the thank you screen.
+A book button is added this button in the backend calculates the total amount the user will have to pay. 
+Calculation Screen: 
 
-Contact Screen: 
+After the user has selected the courses that they want they will proceed by clicking the book button which will allow the app to claclute the total cost the user will have to pay. 
+
+Contact Screen/ Thank you Screen : 
 
 After booking a course the user is taken to the contact page where they get details on how to contact and where they can find the training program. 
+
+
 
 # Documentation 
 
@@ -73,12 +80,42 @@ After booking a course the user is taken to the contact page where they get deta
 # Updated Documentation 
 
 <img width="835" height="398" alt="image" src="https://github.com/user-attachments/assets/4cf76759-4ea9-45a0-b0aa-d032aa95dd4e" />
+<img width="395" height="688" alt="image" src="https://github.com/user-attachments/assets/722b557d-5437-43cb-916d-a6bf5672b8df" />
+
 
 Code for the dropdown menu
 
 <img width="981" height="807" alt="image" src="https://github.com/user-attachments/assets/73c09db2-3d89-4e03-b80a-aab27f331ec0" />
 
 Code to allow the dropdown menu to work 
+
+<img width="388" height="685" alt="image" src="https://github.com/user-attachments/assets/8d7be1a7-1b8c-411e-9327-b76f634cb060" />
+<img width="388" height="685" alt="image" src="https://github.com/user-attachments/assets/a1736070-01bc-4dc8-bb46-e766806cbb69" />
+<img width="392" height="682" alt="image" src="https://github.com/user-attachments/assets/24e72354-07d5-495f-afa6-325550c82954" />
+<img width="391" height="682" alt="image" src="https://github.com/user-attachments/assets/a66615ac-ffe6-42c6-9f09-28c961f9ef03" />
+<img width="394" height="687" alt="image" src="https://github.com/user-attachments/assets/9c271419-cd35-4506-a3e2-49de7bddd0ad" />
+<img width="394" height="687" alt="image" src="https://github.com/user-attachments/assets/1d63f193-90c7-4bfb-a0be-a54266777f7a" />
+<img width="394" height="687" alt="image" src="https://github.com/user-attachments/assets/6ae370c7-b189-4b2f-8873-997eee01be60" />
+<img width="399" height="682" alt="image" src="https://github.com/user-attachments/assets/f6e8109f-fd8a-417c-8b0c-0c04dcc6487b" />
+
+Courses pages 
+
+<img width="841" height="445" alt="image" src="https://github.com/user-attachments/assets/6f2a874b-b38c-441b-968b-caaa2d11040b" />
+<img width="841" height="445" alt="image" src="https://github.com/user-attachments/assets/433d30de-7146-43a2-9682-d9ebec9a84af" />
+
+Calculation code 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
