@@ -51,49 +51,49 @@
         android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First-Aid"
+        android:text="First-Aid | R1500"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sewing"
+        android:text="Sewing | R1500"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Landscaping"
+        android:text="Landscaping | R1500"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Life Skills"
+        android:text="Life Skills | R1500"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Child Minding"
+        android:text="Child Minding | R750"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cooking"
+        android:text="Cooking | R750"
         android:textColor="@color/black"/>
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Garden Maintence"
+        android:text="Garden Maintence | R750"
         android:textColor="@color/black"/>
 
     <androidx.appcompat.widget.AppCompatButton
