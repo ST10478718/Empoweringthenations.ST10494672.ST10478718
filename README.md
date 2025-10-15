@@ -1,6 +1,7 @@
 # Empowering The Nations
 # AJ Dynamics 
-# ST10478718, # ST10494672
+# ST10478718
+# ST10494672
 
 # Installation instructions:
 
